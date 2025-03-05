@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiklee Music Distribution Submission Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="distribution-form">
+    <div class="form-container">
+        <h1>Chiklee Music - Distribution Submission Form</h1>
+        
+        <form action="https://api.web3forms.com/submit" method="POST" method="post">
+            <input type="hidden" name="access_key" value="f286a2b7-46db-4f95-b218-a2d54d1b97dd">
+            <h2>Artist/Band Information</h2>
+            <label for="artistName">Artist/Band Name:</label>
+            <input type="text" id="artistName" name="artistName" required>
+
+            <label for="contactPerson">Contact Person:</label>
+            <input type="text" id="contactPerson" name="contactPerson" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="website">Website/Social Media Links:</label>
+            <input type="url" id="website" name="website">
+
+            <h2>Release Information</h2>
+            <label for="releaseTitle">Release Title:</label>
+            <input type="text" id="releaseTitle" name="releaseTitle" required>
+
+            <label for="releaseType">Type of Release (Single/EP/Album):</label>
+            <select id="releaseType" name="releaseType" required>
+                <option value="single">Single</option>
+                <option value="ep">EP</option>
+                <option value="album">Album</option>
+            </select>
+
+            <label for="primaryGenre">Primary Genre:</label>
+            <input type="text" id="primaryGenre" name="primaryGenre" required>
+
+            <label for="secondaryGenre">Secondary Genre:</label>
+            <input type="text" id="secondaryGenre" name="secondaryGenre">
+
+            <label for="language">Language of Lyrics:</label>
+            <input type="text" id="language" name="language" required>
+
+            <label for="explicitContent">Explicit Content? (Yes/No):</label>
+            <select id="explicitContent" name="explicitContent" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="releaseDate">Release Date (Preferred):</label>
+            <input type="date" id="releaseDate" name="releaseDate" required>
+
+            <label for="upc">UPC/EAN Code (if available):</label>
+            <input type="text" id="upc" name="upc">
+
+            <label for="isrc">ISRC Code(s) (if available):</label>
+            <input type="text" id="isrc" name="isrc">
+
+            <h2>Track Details</h2>
+            <label for="trackTitle">Track Title:</label>
+            <input type="text" id="trackTitle" name="trackTitle" required>
+
+            <label for="trackDuration">Track Duration:</label>
+            <input type="text" id="trackDuration" name="trackDuration" required>
+
+            <label for="composer">Composer(s):</label>
+            <input type="text" id="composer" name="composer" required>
+
+            <label for="lyricist">Lyricist(s):</label>
+            <input type="text" id="lyricist" name="lyricist" required>
+
+            <label for="producer">Producer(s):</label>
+            <input type="text" id="producer" name="producer" required>
+
+            <label for="featuredArtist">Featured Artist(s) (if any):</label>
+            <input type="text" id="featuredArtist" name="featuredArtist">
+
+            <h2>Artwork Information</h2>
+            <label for="coverArt">Cover Art Upload Link:</label>
+            <input type="url" id="coverArt" name="coverArt" required>
+
+            <label for="artDimensions">Cover Art Dimensions (Minimum: 3000x3000px):</label>
+            <input type="text" id="artDimensions" name="artDimensions" required>
+
+            <label for="colorTheme">Primary Color Theme (Optional):</label>
+            <input type="text" id="colorTheme" name="colorTheme">
+
+            <h2>Distribution Preferences</h2>
+            <label>Preferred Streaming Platforms (Check all that apply):</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="platform" value="spotify"> Spotify</label>
+                <label><input type="checkbox" name="platform" value="appleMusic"> Apple Music</label>
+                <label><input type="checkbox" name="platform" value="amazonMusic"> Amazon Music</label>
+                <label><input type="checkbox" name="platform" value="youtubeMusic"> YouTube Music</label>
+                <label><input type="checkbox" name="platform" value="deezer"> Deezer</label>
+                <label><input type="checkbox" name="platform" value="tidal"> Tidal</label>
+                <label><input type="checkbox" name="platform" value="other"> Others (Please specify):</label>
+                <input type="text" id="otherPlatform" name="otherPlatform">
+            </div>
+
+            <h2>Rights & Licensing</h2>
+            <label for="rightsOwnership">Do you own 100% of the rights to this music? (Yes/No):</label>
+            <select id="rightsOwnership" name="rightsOwnership" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="proRegistration">Is the music registered with any Performing Rights Organization (PRO)? (Yes/No, if Yes, specify):</label>
+            <select id="proRegistration" name="proRegistration" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <input type="text" id="proDetails" name="proDetails">
+
+            <label for="contentID">Do you need Content ID registration for YouTube & Facebook? (Yes/No):</label>
+            <select id="contentID" name="contentID" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <h2>Marketing & Promotion</h2>
+            <label for="promoService">Do you need promotional services? (Yes/No):</label>
+            <select id="promoService" name="promoService" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="socialMediaPromo">Social Media Promotion Required? (Yes/No):</label>
+            <select id="socialMediaPromo" name="socialMediaPromo" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="releaseStrategy">Any special release strategy or promotional plans?</label>
+            <textarea id="releaseStrategy" name="releaseStrategy" rows="4"></textarea>
+
+            <h2>Additional Information</h2>
+            <label for="notes">Any notes or special requests?</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+
+            <h2>Agreement & Signature</h2>
+            <label for="agreement">I confirm that I own or have the necessary rights to distribute this music through Chiklee Music and agree to the terms of the service.</label>
+            <input type="checkbox" id="agreement" name="agreement" required>
+
+            <label for="signature">Signature:</label>
+            <input type="text" id="signature" name="signature" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+</body>
+</html>

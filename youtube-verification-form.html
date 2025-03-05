@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-protection-form">
+    <div class="form-container">
+        <h1>Applicant Information Form</h1>
+        <form action="https://api.web3forms.com/submit" method="POST" method="post">
+            <input type="hidden" name="access_key" value="f286a2b7-46db-4f95-b218-a2d54d1b97dd">
+            <!-- Applicant Information -->
+            <h2>Applicant Information</h2>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="website">YouTube Channel Link:</label>
+            <input type="url" id="website" name="website">
+
+            <!-- Describe the Issue -->
+            <h2>Describe the Issue</h2>
+            <label for="issueDescription">Describe the Issue:</label>
+            <textarea id="issueDescription" name="issueDescription" rows="5" required></textarea>
+
+            <!-- Supporting Documents -->
+            <h2>Supporting Documents (if any)</h2>
+            <label for="documents">Upload Supporting Documents:</label>
+            <input type="file" id="documents" name="documents" multiple>
+
+            <!-- Services Section -->
+            <h2>Select Services</h2>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="service" value="Get Recognized, Build Credibility">
+                    <strong>Get Recognized, Build Credibility</strong>
+                </label>
+                <label>
+                    <input type="checkbox" name="service" value="Fast & secure YouTube verification process">
+                    <strong> Fast & secure YouTube verification process</strong>
+                </label>
+                <label>
+                    <input type="checkbox" name="service" value="Expert consultation for approval success">
+                    <strong>Expert consultation for approval success</strong>
+                </label>
+                <label>
+                    <input type="checkbox" name="service" value="Proper documentation & brand protection">
+                    <strong>Proper documentation & brand protection</strong>
+                </label>
+            </div>
+
+            <!-- Signature and Date -->
+            <h2>Signature & Date</h2>
+            <label for="signature">Signature:</label>
+            <input type="text" id="signature" name="signature" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

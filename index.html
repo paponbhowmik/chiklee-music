@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+      <!-- Up button -->
+  <button class="up-button" id="upButton" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="image/logo.png" alt="" srcset=""></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="about.html" class="dropbtn">About <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="company.html"> Company</a>
+                    <a href="career.html"> Career</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="service.html" class="dropbtn">Services <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="content-protection.html"> CONTENT PROTECTION</a>
+                    <a href="smart-monitezation.html"> SMART MONETIZATION</a>
+                    <a href="youtube-verification.html"> YOUTUBE VERIFICATION</a>
+                    <a href="distribution.html"> MUSIC LICENSING & DISTRIBUTION</a>
+                    <a href="viral.html"> VIRAL GROWTH STRATEGY</a>
+                    <a href="cms.html"> CONTENT SECURITY & CMS</a>
+                    <a href="management.html"> EXCLUSIVE CONTENT MANAGEMENT</a>
+                    <a href="artist.html"> ARTIST & LABEL SUPPORT</a>
+                </div>
+            </li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#login" class="login-btn">Login <i class="fas fa-sign-in-alt"></i></a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="banner-background">
+            <div class="background-layer" style="background-image: url('image/banner-pic1.jpg');"></div>
+            <div class="background-layer" style="background-image: url('image/banner-pic2.jpg');"></div>
+            <div class="background-layer" style="background-image: url('image/banner-pic3.jpg');"></div>
+        </div>
+        <div class="banner-content">
+            <h1>Feel the Beat</h1>
+            <p>Experience the rhythm of life.</p>
+            <!-- Music Animation -->
+            <div class="music-animation">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <section class="services-section reveal">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <div class="title-background-shape"></div>
+        </div>
+        <div class="services-container">
+          <div class="service-card">
+            <h3>Content Protection</h3>
+            <p>Secure your content from threats</p>
+            <p>Advanced protection against hacking & unauthorized access</p>
+            <p>Immediate resolution of fake copyright strikes</p>
+            <p>Fast recovery of hacked accounts</p>
+          </div>
+          <div class="service-card">
+            <h3>Smart Monetization</h3>
+            <p>Maximize revenue with cutting-edge tools</p>
+            <p>Unlock premium ad formats for higher earnings</p>
+            <p>AI-powered Content ID management</p>
+            <p>Convert every view into long-term revenue</p>
+          </div>
+          <div class="service-card">
+            <h3>YouTube Verification</h3>
+            <p>Get recognized, build credibility</p>
+            <p>Fast & secure YouTube verification process</p>
+            <p>Expert consultation for approval success</p>
+            <p>Proper documentation & brand protection</p>
+          </div>
+          <div class="service-card">
+            <h3>Music Licensing & Distribution</h3>
+            <p>Expand your reach legally & globally</p>
+            <p>Exclusive access to licensed tracks from top labels</p>
+            <p>Hassle-free clearance for commercial use</p>
+            <p>Worldwide distribution for maximum exposure</p>
+          </div>
+          <div class="service-card">
+            <h3>Viral Growth Strategy</h3>
+            <p>Boost visibility & audience engagement</p>
+            <p>AI-powered SEO optimization for better rankings</p>
+            <p>Algorithm-friendly strategies for organic growth</p>
+            <p>Enhanced discoverability & audience retention</p>
+          </div>
+          <div class="service-card">
+            <h3>Content Security & CMS</h3>
+            <p>Protect and manage your digital assets</p>
+            <p>Enterprise-grade security to prevent piracy</p>
+            <p>AI-driven Content Management System (CMS)</p>
+            <p>Unauthorized uploads & content theft prevention</p>
+          </div>
+          <div class="service-card">
+            <h3>Exclusive Content Management</h3>
+            <p>Optimize your video library for success</p>
+            <p>AI-enhanced metadata structuring</p>
+            <p>Personalized content strategies for consistent engagement</p>
+            <p>Growth-focused content optimization</p>
+          </div>
+          <div class="service-card">
+            <h3>Artist & Label Support</h3>
+            <p>Helping artists & labels succeed</p>
+            <p>Full-scale support for independent artists & record labels</p>
+            <p>Branding, licensing, and monetization strategies</p>
+            <p>Industry connections to expand your influence</p>
+          </div>
+        </div>
+      </section>
+      <!-- review section start -->
+      <div class="review-main">
+        <section class="review-section reveal">
+            <h2>Customer Reviews</h2>
+        <div class="reviews-container" id="reviewsContainer">
+            <!-- Reviews will be dynamically added here -->
+        </div>
+        <div class="review-form">
+            <h3>Submit Your Review</h3>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <select id="rating" name="rating" required>
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                    <label for="comment">Comment</label>
+                </div>
+                <button class="review-button" type="submit">Submit Review</button>
+            </form>
+        </div>
+          </section>
+      </div>
+<!-- review section end -->
+      <!-- contact section start -->
+      <div class="contact-main reveal">
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>Chiklee Music</h2>
+                <p>Visit our offices at</p>
+                <address>mirpur 1, Dhaka</address>
+                <p>Message us</p>
+                <p>Email: <a href="mailto:contact@identitymusic.com">info@chikleemusic.com</a></p>
+                <p>Phone: <a href="tel:01825519018">01825519018</a></p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/ChikleeMusic" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@ChikleeMusic-cm" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/ChikleeMusic" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST" method="post">
+                    <input type="hidden" name="access_key" value="f286a2b7-46db-4f95-b218-a2d54d1b97dd">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name </label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email </label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone">
+                        <label for="phone">Phone number</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+                    <button class="contact-button" type="submit">Send message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+      </div>
+          <!-- contact section end -->
+    <!-- footer section start -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Learn About Chiklee Music</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Chiklee Music Ltd</h3>
+                <p>mirpur 1, Dhaka</p>
+                <p>Email: <a href="mailto:contact@identitymusic.com">info@chikleemusic.com</a></p>
+                <p>Phone: <a href="tel:01825519018">01825519018</a></p>
+                <div class="footer-social-media">
+                    <a href="https://www.facebook.com/ChikleeMusic" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@ChikleeMusic-cm" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/ChikleeMusic" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><a href="#">Privacy Policy</a></p>
+            <p>© 2025 Chiklee Music Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer section end -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

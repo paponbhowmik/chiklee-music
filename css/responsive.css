@@ -1,0 +1,520 @@
+@media (min-width: 320px) and (max-width: 575px){
+    /* navbar st */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: d9d9dd;
+        position: absolute;
+        top: 100%;
+        left: 0;
+      }
+    
+      .nav-links.active {
+        display: flex;
+        background-color: black;
+      }
+      .nav-links a {
+        font-size: 11px;
+    }
+    
+      .hamburger {
+        display: flex;
+      }
+    
+      .hamburger.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+    
+      .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .hamburger.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+    /* navbar end */
+    /* banner st  */
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+    /* banner end */
+    /* about page st */
+    .about-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    .about-banner .banner-content p {
+        font-size: 0.7rem;
+        width: 81%;
+    }
+    .about-details .card {
+        text-align: center;
+    }
+    .about-details .card p{
+        text-align: center;
+    }
+    /* about page end */
+    /* company page st */
+    .company-banner .banner-content p {
+        font-size: 0.7rem;
+        width: 80%;
+    }
+    .company-banner .banner-content h1 {
+        font-size: 1rem;
+        width: 80%;
+    }
+    .section-title h2 {
+        font-size: 0.9rem;
+    }
+    .cta-button {
+        width: 79%;
+    }
+    /* company page end */
+    /* career page st */
+    .career-banner .banner-content h1 {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .career-banner .banner-content p {
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    .job-role h2 {
+        font-size: 1rem;
+    }
+    /* career page end */
+    /* service page st */
+    .service-banner .banner-content h1 {
+        font-size: 1rem;
+        width: 100%;
+    }
+    /* service page end */
+    /* content protection page st */
+    .content-protection-banner .banner-content h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+    .content-protection-details .content-protection h2 {
+        font-size: 10px;
+    }
+    /* content protection page end */
+    /* smart monitezation page st */
+    .smart-monitezation-details .content-protection h2 {
+        font-size: 10px;
+    }
+    .smart-monitezation-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    /* smart monitezation page end */
+    /* youtube page st */
+    .youtube-verification-details .content-protection h2 {
+        font-size: 10px;
+    }
+    .youtube-verification-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    /* youtube page end */
+    /* distribution page st */
+    .distribution-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    .distribution-details .content-protection h2 {
+        font-size: 10px;
+    }
+    /* distribution page end */
+    /* viral page st */
+    .viral-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    .viral-details .content-protection h2 {
+        font-size: 10px;
+    }
+    /* viral page end */
+    /* security page st */
+    .cms-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    .cms-details .content-protection h2 {
+        font-size: 10px;
+    }
+    /* security page end */
+    /* management page st */
+    .management-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    .management-details .content-protection h2 {
+        font-size: 10px;
+    }
+    /* management page end */
+    /* artist page st */
+    .artist-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    .artist-details .content-protection h2 {
+        font-size: 10px;
+    }
+    /* artist page end */
+    /* blog page st */
+    .blog-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    /* blog page end */
+    /* contact page st */
+    .contact-banner .banner-content h1 {
+        font-size: 2rem;
+    }
+    /* contact page end */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+.nav-links a {
+	padding: 10px 10px;
+	margin-right: 1px;
+	font-size: 0.7rem;
+	font-weight: bolder;
+}
+.navbar .logo img {
+	height: 60px;
+}
+.contact-button {
+    font-size: 12px;
+}
+/* about page st */
+.about-banner .banner-content p {
+	width: 90%;
+}
+/* about page end */
+/* company page st */
+.company-banner .banner-content h1 {
+	font-size: 2rem;
+}
+.company-banner .banner-content p {
+	width: 96%;
+}
+.section-title h2 {
+	font-size: 1.5rem;
+}
+.cta-button {
+	padding: 15px 1px;
+	width: 36%;
+}
+/* company page end */
+/* career page st */
+.career-banner .banner-content h1 {
+	font-size: 1.5rem;
+	width: 97%;
+}
+.career-banner .banner-content p {
+	font-size: 1rem;
+	width: 84%;
+}
+.job-role h2 {
+	font-size: 1.5rem;
+}
+/* career page end */
+/* service page st */
+.service-banner .banner-content h1 {
+	font-size: 1.7rem;
+	width: 100%;
+}
+/* service page end */
+/* content protection page st */
+.content-protection-banner .banner-content h1 {
+	font-size: 3rem;
+}
+/* content protection page end */
+/* smart monitezation page st */
+.smart-monitezation-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.smart-monitezation-details .content-protection h2 {
+	font-size: 20px;
+}
+/* smart monitezation page end */
+/* youtube page st */
+.youtube-verification-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.youtube-verification-details .content-protection h2 {
+	font-size: 20px;
+}
+/* youtube page end */
+/* distribution page st */
+.distribution-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.distribution-details .content-protection h2 {
+	font-size: 14px;
+}
+/* distribution page end */
+/* viral page st */
+.viral-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.viral-details .content-protection h2 {
+	font-size: 18px;
+}
+/* viral page end */
+/* security page st */
+.cms-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.cms-details .content-protection h2 {
+	font-size: 14px;
+}
+/* security page end */
+/* management page st */
+.management-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.management-details .content-protection h2 {
+	font-size: 16px;
+}
+/* management page end */
+/* artist page st */
+.artist-banner .banner-content h1 {
+	font-size: 3rem;
+}
+.artist-details .content-protection h2 {
+	font-size: 16px;
+}
+/* artist page end */
+/* blog page st */
+.blog-banner .banner-content h1 {
+	font-size: 2rem;
+}
+/* blog page end */
+/* contact page st */
+.contact-banner .banner-content h1 {
+	font-size: 2rem;
+}
+/* contact page end */
+      
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .nav-links a {
+        padding: 10px 10px;
+        margin-right: 4px;
+        font-size: 12px;
+    }
+    .navbar .logo img {
+        height: 65px;
+    }
+    .about-banner .banner-content p {
+        font-size: 1rem;
+        width: 92%;
+    }
+    .about-details .card p {
+        font-size: 17px;
+    }
+    .about-details .card ul li {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /* company page st */
+    .company-banner .banner-content h1 {
+        font-size: 3rem;
+    }
+    .company-banner .banner-content p {
+        width: 82%;
+    }
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    .cta-button {
+        width: 28%;
+    }
+    /* company page end */
+    /* career page st */
+    .career-banner .banner-content p {
+        font-size: 1rem;
+        width: 76%;
+    }
+    .career-banner .banner-content h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+    /* career page end */
+    /* service page st */
+    .service-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    /* service page end */
+    /* content protection page st */
+    .content-protection-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .content-protection-details .protection-item h3 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    /* content protection page end */
+    /* smart monitezation page st */
+    .smart-monitezation-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .smart-monitezation-details .content-protection h2 {
+        font-size: 22px;
+    }
+    .smart-monitezation-details .protection-item h3 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    /* smart monitezation page end */
+    /* youtube page st */
+    .youtube-verification-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .youtube-verification-details .content-protection h2 {
+        font-size: 22px;
+    }
+    /* youtube page end */
+    /* distribution page st */
+    .distribution-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .distribution-details .content-protection h2 {
+        font-size: 20px;
+    }
+    .distribution-details .protection-item h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* distribution page end */
+    /* viral page st */
+    .viral-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .viral-details .content-protection h2 {
+        font-size: 22px;
+    }
+    .viral-details .protection-item h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* viral page end */
+    /* security page st */
+    .cms-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .cms-details .content-protection h2 {
+        font-size: 20px;
+    }
+    .cms-details .protection-item h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* security page end */
+    /* management page st */
+    .management-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .management-details .content-protection h2 {
+        font-size: 20px;
+    }
+    .management-details .protection-item h3 {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    /* management page end */
+    /* artist page st */
+    .artist-banner .banner-content h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .artist-details .content-protection h2 {
+        font-size: 20px;
+    }
+    .artist-details .protection-item h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* artist page end */
+    /* blog page st */
+    .blog-banner .banner-content h1 {
+        font-size: 2.5rem;
+    }
+    /* blog page end */
+    /* contact page st */
+    .contact-banner .banner-content h1 {
+        font-size: 2.5rem;
+    }
+    /* contact page end */
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .company-banner .banner-content h1 {
+        font-size: 3.5rem;
+    }
+    .company-banner .banner-content p {
+        width: 64%;
+    }
+    .service-banner .banner-content h1 {
+        width: 100%;
+    }
+    .service-details .btn-custom {
+        padding: 3px 15px;
+        margin: 10px 5px;
+    }
+    .smart-monitezation-details .content-protection h2 {
+        font-size: 25px;
+    }
+    .youtube-verification-details .content-protection h2 {
+        font-size: 32px;
+    }
+    .distribution-details .content-protection h2 {
+        font-size: 27px;
+    }
+    .viral-details .content-protection h2 {
+        font-size: 28px;
+    }
+    .cms-details .content-protection h2 {
+        font-size: 27px;
+    }
+    .management-details .content-protection h2 {
+        font-size: 24px;
+    }
+    .artist-details .content-protection h2 {
+        font-size: 28px;
+    }
+    .blog .card ul li {
+        font-size: 14.5px;
+    }
+    .blog .h5, h5 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    .company-banner .banner-content p {
+        width: 66%;
+    }
+    .service-banner .banner-content h1 {
+        width: 83%;
+    }
+    .service-details .btn-custom {
+        padding: 7px 15px;
+        margin: 10px 7px;
+    }
+    .distribution-details .content-protection h2 {
+        font-size: 30px;
+    }
+    .cms-details .content-protection h2 {
+        font-size: 30px;
+    }
+    .management-details .content-protection h2 {
+        font-size: 29px;
+    }
+    .artist-details .content-protection h2 {
+        font-size: 30px;
+    }
+    .blog .card ul li {
+        font-size: 18.5px;
+    }
+}
